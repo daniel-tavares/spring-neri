@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="pessoa" class="aula3407.injecao.colecoes.map.BeanPessoa">
+		<property name="nome" value="Daniel" />
+		<property name="fone" value="39265659" />
+		<property name="cpf" value="35665996584" />
+		<property name="idade" value="24" />
+		<property name="sexo" value="M" />
+		<property name="listaDeIrmaos">
+			<list>
+				<value>Natália</value>
+				<value>Lilian</value>
+			</list>
+		</property>
+		<property name="videoaulasQuantidade">
+			<map>
+				<entry key="Java" value="800" />
+				<entry key="Delphi" value="500" />
+				<entry key="PHP" value="300" />
+				<entry key="Flex" value="350" />
+				<entry key="Algoritmo" value="321" />
+			</map>
+		</property>
+	</bean>
+</beans>

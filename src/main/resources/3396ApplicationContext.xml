@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="aluno" class="aula3396.universidade.Aluno">
+
+	</bean>
+
+	<bean id="professor" class="aula3396.universidade.Professor">
+
+	</bean>
+
+	<bean id="quadroNegro" class="aula3396.universidade.QuadroNegro">
+
+	</bean>
+
+	<bean id="universidade" class="aula3396.universidade.UniversidadeUlbra">
+		<property name="aluno" ref="aluno" />
+		<property name="professor" ref="professor" />
+		<property name="quadroNegro" ref="quadroNegro" />
+	</bean>
+
+</beans>

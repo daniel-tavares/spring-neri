@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="pessoa" class="aula3403.injecao.via.construtor.BeanPessoa">
+		<constructor-arg index="0" value="Daniel" />
+		<constructor-arg index="1" value="39226659" />
+		<constructor-arg index="2" value="38966559865" />
+		<constructor-arg index="3" value="24" />
+		<constructor-arg index="4" value="M" />
+	</bean>
+
+</beans>
