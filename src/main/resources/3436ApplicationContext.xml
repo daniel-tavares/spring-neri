@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean name="pessoa" class="aula3436.injecao.heranca.BeanPessoa"
-	abstract="true">
+		abstract="true">
 		<property name="nome" value="Daniel" />
 		<property name="cidade" value="São José dos Campos" />
 	</bean>
