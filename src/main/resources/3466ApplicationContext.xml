@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- Adicionado para reconhecer anotacoes -->
+	<context:annotation-config />
+
+	<bean name="pessoa" class="aula3466.injecao.annotation.autowired.BeanPessoa">
+		<property name="nome" value="Daniel" />
+		<property name="sobrenome" value="Corrêa" />
+	</bean>
+
+	<bean name="endereco" class="aula3466.injecao.annotation.autowired.BeanEndereco">
+		<property name="rua" value="Marechal Rondon" />
+		<property name="bairro" value="Monte Castelo" />
+		<property name="numero" value="41224" />
+	</bean>
+</beans>
