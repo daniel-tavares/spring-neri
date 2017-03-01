@@ -17,6 +17,18 @@
 
 	<dependencies>
 
+		<!-- AOP -->
+		<dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.6.11</version>
+		</dependency>
+
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
