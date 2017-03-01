@@ -20,4 +20,10 @@
 		<property name="bairro" value="Monte Castelo" />
 		<property name="numero" value="41224" />
 	</bean>
+
+	<bean name="endereco1" class="aula3466.injecao.annotation.autowired.BeanEndereco">
+		<property name="rua" value="Avenida Brasil" />
+		<property name="bairro" value="Jardim Paulista" />
+		<property name="numero" value="1232" />
+	</bean>
 </beans>
