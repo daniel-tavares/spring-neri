@@ -14,8 +14,6 @@
 	<!-- Para o spring reconhecer a programação orientada a aspect AOP -->
 	<aop:aspectj-autoproxy />
 
-
-
 	<bean name="servicoPessoa" class="aula3471.injecao.aop.ServicoPessoa">
 	</bean>
 
