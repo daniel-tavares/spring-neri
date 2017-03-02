@@ -8,6 +8,7 @@ public class ServicoPessoa implements IServicoPessoa {
 
 	public void excluirPessoa() {
 		System.out.println("excluirPessoa()");
+		throw new RuntimeException("Erro para teste do Throwing");
 	}
 
 	public void alterarPessoa() {
