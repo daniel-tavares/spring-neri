@@ -1,17 +1,41 @@
+###############################
+# Classes e empacotamentos
+###############################
+## **/*.class
+## **/*.jar
+## **/*.war
+## **/*.ear
+## **/*.zip
+
+
+###############################
+# Arquivos de IDEs
+###############################
+**/.project
+**/.settings/**
+**/.classpath
+**/.tern-project
+**/.pydevproject
+
+
+###############################
+# Arquivos de SO
+###############################
+**/*.DS_Store
+
+
+###############################
+# Diretorios
+###############################
+**/target/**
+**/bin/**
+**/.sonar/**
+**/build/**
+**/node_modules/**
+
+
+###############################
+# Logs
+###############################
+**/*.log
 /target/
-.metadata/
-.recommenders/
-RemoteSystemsTempFiles/
-Servers/
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
